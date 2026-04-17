@@ -89,7 +89,12 @@
 	}
 	.everything{
 	display: flex;
-	
+	border-width: 3px;
+	border-style: double;
+	border-color: white;
+	padding: 10px;
+	width: 700px;
+	flex-direction: row;
 	}
 	
 	
