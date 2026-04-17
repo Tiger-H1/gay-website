@@ -23,7 +23,6 @@
 	font-size: 15px;
 	color: white;
 	text-align: left;
-	margin: 0 0 0 10px;
 	width: 500px;
 	flex-direction: column;
 	}
@@ -34,14 +33,12 @@
 	font-size: 15px;
 	color: white;
 	text-align: left;
-	display: flex;
-	margin: 0 0 0 5px;
+
 	width: 450px;
 	text-decoration: underline;
 	}
 	.car{
-		display: flex;
-		width: fit-content;
+		width: 192.55;
 	}
 	.nav{
 		float: left;
@@ -93,8 +90,10 @@
 	border-style: double;
 	border-color: white;
 	padding: 10px;
-	width: 700px;
+	width: 800px;
 	flex-direction: row;
 	}
-	
+	.everything2{
+		display:flex;
+	}
 	
