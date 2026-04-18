@@ -38,7 +38,9 @@
 	text-decoration: underline;
 	}
 	.car{
-		width: 192.55;
+		width: 161;
+		height:100%;
+		color:white;
 	}
 	.nav{
 		float: left;
@@ -51,6 +53,7 @@
 		border-color: white;
 		border-style: dashed;
 		word-wrap: break-word;
+		padding:5px;
 	}
 	a:link{
 	color: white;
@@ -89,11 +92,22 @@
 	border-width: 3px;
 	border-style: double;
 	border-color: white;
-	padding: 10px;
 	width: 800px;
 	flex-direction: row;
 	}
 	.everything2{
 		display:flex;
+		padding:5px;
 	}
-	
+	.cat{
+		border-right: 1px;
+		border-right-style:solid;
+		border-color: white;
+		height:100%;
+		border-bottom:1px;
+		border-bottom-style:solid;
+		border-bottom-color:white;
+	}
+	.music{
+	font-size:16px;
+	}
