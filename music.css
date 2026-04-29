@@ -39,7 +39,7 @@ body {
   margin: 0 auto;
   padding: 0;
   image-rendering: pixelated;
-  font-family: 'Space Mono';
+  font-family: "geist mono";
 }
 .tuffheader{
 	margin:0 0 0 250px;
@@ -58,9 +58,13 @@ body {
 	border-style: solid;
 }
 .steal{
-	margin: 0 10 0 0;
-	display: flex;
+	width:fit-content;
+	margin:5px;
 }
-.tox{
+.other{
+	width:fit-content;
+	margin:5px;
+}
+.albumz{
 	display:flex;
 }
