@@ -17,6 +17,8 @@
 		border-width: 3px;
 		border-color: white;
 		border-style: dashed;
+		word-wrap: break-word;
+		padding:5px;
 	}
 	a:link{
 	color: white;

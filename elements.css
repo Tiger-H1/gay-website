@@ -41,6 +41,8 @@
 		width: 161;
 		height:100%;
 		color:white;
+		text-align: center;
+		font-size: 12px;
 	}
 	.nav{
 		float: left;
