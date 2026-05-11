@@ -4,12 +4,12 @@
 		text-align: center;
 		font-size: 20px;
 		color: white;
+		margin: 0 0 0 3px;
 		border-width: 3px;
 		border-color: white;
 		border-style: dashed;
 		word-wrap: break-word;
 		padding:5px;
-		margin: 8px 0 0 11px;
 	}
     a:link{
 	color: white;
@@ -32,185 +32,42 @@
 	text-decoration: none;
 	}
 body {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("bg.gif");
+  background-color: black;	
   color: white;
   margin: 0 auto;
   padding: 0;
   image-rendering: pixelated;
   font-family: "geist mono";
+  margin: 8px;
 }
-.tuffheader{
-	margin:0 0 0 250px;
-	font-size:20px;
-	width:400px;
-	display:flex;
+	.tuffheader{	
+	color: white;
+	width: 500px;
+	font-size: 20px;
+	font-family: "Geist Mono";
+	text-align: left;
+	border-radius: 5px;
+	display: flex;
 	flex-direction: column;
+	
+	}
+	.header{
+	text-align: left;
+	display: flex;
+	margin: 0 0 0 250px;
+	}
+.linkz{
+	font-size: 25px;
+	width: 1000px;
 }
 .everything{
-	width:1065px;
-	display:flex;
-	flex-direction: column;
-	margin: 50 0 0 250px;
-	border-width:3px;
-	border-color:white;
-	border-style: solid;
-}
-.steal{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.other{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.albumz{
-	display:flex;
-}
-.ratm{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;}
-
-.Snot{
-	display:flex;
-	flex-direction:column;
-	width:fit-content;
-	text-align:center;
-	margin: 0 0 0 80px;
-}
-.SN{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.mag{
-	margin: 5px;
+	border-width: 3px;
+	border-color: white;
+	border-style: groove;
+	padding: 10px;
 	display: flex;
-	flex-direction: column;
-	text-align: center;
-}
-.train{
-		display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.ESBN{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.ATI{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.Albumzthree{
-	display:flex;
-}
-.Disclaimer{
-		display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.HT{
-		display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.CATS{
-		display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.HARA{
-		display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-}
-.POD{
-			display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-	width:fit-content;
-}
-.IOWA{
-			display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-	width:fit-content;
-}
-.ITM{
-			display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-	width:fit-content;
-}
-.SFTD{
-			display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-	width:fit-content;
-}
-.albumsfour{
-	display:flex;
-	flex-direction: row;
-
-}
-.SOB{
-			display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-	width:fit-content;
-}
-.WP{
-	display:flex;
-	margin: 5px;
-	text-align: center;
-	width: fit-contet;
-	flex-direction: column;
-}
-.ten{
-	display:flex;
-	margin: 5px;
-	flex-direction: column;
-	text-align: center;
-
-}
-.albumzfive{
-	display: flex;
-}
-.WWN{
-		display:flex;
-	margin: 5px;
-	text-align: center;
-	width: fit-contet;
-	flex-direction: column;
-}
-.title{
-	margin: 5px;
-	display: flex;
-}
-.linkz{
-	margin: 0 0 0 250px;
-	font-size: 25px;
+	width: 1000px;
+		margin: 100px 0 0 250px;
+		
 }
